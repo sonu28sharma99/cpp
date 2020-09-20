@@ -1,7 +1,0 @@
-{
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 25000,
-    "editor.fontSize": 18,
-    "editor.cursorStyle": "block",
-    "editor.definitionLinkOpensInPeek": true
-}
