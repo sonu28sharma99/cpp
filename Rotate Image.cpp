@@ -2,19 +2,19 @@
 using namespace std;
 
 int main(){
-    int m,n;
-    cin >> m >> n;
+    int n;
+    cin >>n;
 
-    int arr[m][n];
+    int arr[n][n];
 
 /* ------------------------------- input array ------------------------------ */
-for(int i=0; i<m; i++){
+for(int i=0; i<n; i++){
     for(int j=0; j<n; j++)
         cin >> arr[i][j];
 }
 
 /* ---------------------------- Reverse elements ---------------------------- */
-for(int row=0; row<m; row++){
+for(int row=0; row<n; row++){
     int start= 0;
     int end = n-1;
 
@@ -26,7 +26,7 @@ for(int row=0; row<m; row++){
 }
 
 /* --------------------------- Transpose of Matrix -------------------------- */
-for(int i=0; i<m; i++){
+for(int i=0; i<n; i++){
     for(int j=0; j<n; j++){
         if(i<j){
             swap(arr[i][j],arr[j][i]);
