@@ -30,7 +30,7 @@ public:
     }
 
     // b/c price is private, we create a setter for setting price.
-    set_price(float p){
+    void set_price(float p){
         price = p;
     }
 
